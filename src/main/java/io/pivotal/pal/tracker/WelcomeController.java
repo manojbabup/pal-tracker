@@ -12,17 +12,17 @@ public class WelcomeController {
 
     @Value("${welcome.message}")
     String welcomeMessage;
-
-//    String Welcome1 = welcomeMessage;
 //
-//    public WelcomeController(String welcome) {
-//        this.welcomeMessage = welcome;
-//    }
+////    String Welcome1 = welcomeMessage;
+////
+////    public WelcomeController(String welcome) {
+////        this.welcomeMessage = welcome;
+////    }
+////
+////    public WelcomeController() {
+////        System.out.println("Wlcome");
+////    }
 //
-//    public WelcomeController() {
-//        System.out.println("Wlcome");
-//    }
-
 
     @GetMapping("/")
     public String sayHello() {
